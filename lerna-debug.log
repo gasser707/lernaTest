@@ -1,0 +1,74 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Users\\khale\\AppData\\Roaming\\npm\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath D:\webdev course\lernaTest
+3 info versioning independent
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch main
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 2
+11 silly hasTags
+12 verbose hasTags true
+13 silly git-describe.sync "@walnut/common@0.8.1-5-g025baad" => {"lastTagName":"@walnut/common@0.8.1","lastVersion":"0.8.1","refCount":"5","sha":"025baad","isDirty":false}
+14 info Looking for changed packages since @walnut/common@0.8.1
+15 info ignoring diff in paths matching [ '**/CHANGELOG.md', '**/node_modules/**', '**/*.md', '**/perf/**' ]
+16 silly checking diff packages/common
+17 silly no diff found in @walnut/common
+18 silly checking diff packages/server
+19 silly found diff in packages/server/index.js
+20 verbose filtered diff [ 'packages/server/index.js' ]
+21 verbose updated @walnut/server
+22 verbose git-describe undefined => "@walnut/common@0.8.1-5-g025baad"
+23 silly git-describe parsed => {"lastTagName":"@walnut/common@0.8.1","lastVersion":"0.8.1","refCount":"5","sha":"025baad","isDirty":false}
+24 silly independent for @walnut/server at D:\webdev course\lernaTest\packages\server
+25 verbose getChangelogConfig using preset "conventional-changelog-angular"
+26 silly npa Result {
+26 silly npa   type: 'tag',
+26 silly npa   registry: true,
+26 silly npa   where: undefined,
+26 silly npa   raw: 'conventional-changelog-angular',
+26 silly npa   name: 'conventional-changelog-angular',
+26 silly npa   escapedName: 'conventional-changelog-angular',
+26 silly npa   scope: undefined,
+26 silly npa   rawSpec: '',
+26 silly npa   saveSpec: null,
+26 silly npa   fetchSpec: 'latest',
+26 silly npa   gitRange: undefined,
+26 silly npa   gitCommittish: undefined,
+26 silly npa   hosted: undefined
+26 silly npa }
+27 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+28 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+29 verbose independent increment 0.8.1 by minor
+30 info execute Skipping releases
+31 silly lifecycle No script for "preversion" in "lernaTest", continuing
+32 silly lifecycle No script for "preversion" in "@walnut/server", continuing
+33 silly lifecycle No script for "version" in "@walnut/server", continuing
+34 silly independent for @walnut/server at D:\webdev course\lernaTest\packages\server
+35 silly independent writing new entry: "# [0.9.0](https://github.com/gasser707/lernaTest/compare/@walnut/server@0.8.1...@walnut/server@0.9.0) (2021-03-19)\n\n\n### Bug Fixes\n\n* added a fix ([025baad](https://github.com/gasser707/lernaTest/commit/025baadfb92c8282ab657b73dd27bd4999d41585))\n* added a fix ([866a10d](https://github.com/gasser707/lernaTest/commit/866a10ddf3b56bc9b8cb4b7fe2d69cab7294c926))\n* added another function call ([02a2a33](https://github.com/gasser707/lernaTest/commit/02a2a335720946911b8f9fc986228cf512f6aa10))\n* added another function call to walnut ([56340a3](https://github.com/gasser707/lernaTest/commit/56340a3375c59c9c223a06ba95a8f672a01ea47c))\n\n\n### Features\n\n* added another function call ([9f46f57](https://github.com/gasser707/lernaTest/commit/9f46f5789d8dbb0b7c3f01e92fca370eb8bdd610))\n\n\n\n"
+36 verbose independent wrote D:\webdev course\lernaTest\packages\server\CHANGELOG.md
+37 silly lifecycle No script for "version" in "lernaTest", continuing
+38 silly gitAdd [ 'packages/server/package.json', 'packages/server/CHANGELOG.md' ]
+39 silly gitCommit [skip ci] chore: release
+39 silly gitCommit
+39 silly gitCommit  - @walnut/server@0.9.0
+40 verbose git [
+40 verbose git   'commit',
+40 verbose git   '-F',
+40 verbose git   'C:\\Users\\khale\\AppData\\Local\\Temp\\e4b5571a-68bd-496f-bbc8-f340d5347b78\\lerna-commit.txt'
+40 verbose git ]
+41 silly gitTag @walnut/server@0.9.0
+42 verbose git [ 'tag', '@walnut/server@0.9.0', '-m', '@walnut/server@0.9.0' ]
+43 error Error: Command failed with exit code 128: git tag @walnut/server@0.9.0 -m @walnut/server@0.9.0
+43 error fatal: tag '@walnut/server@0.9.0' already exists
+43 error     at makeError (C:\Users\khale\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\lib\error.js:59:11)
+43 error     at handlePromise (C:\Users\khale\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:114:26)
+43 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+43 error     at async Promise.all (index 0)
+43 error     at async Promise.all (index 0)
