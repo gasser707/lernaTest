@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.2 (2021-03-21)
+
+
+### Bug Fixes
+
+* fixed comment ([33faa29](https://github.com/gasser707/lernaTest/commit/33faa298a1d13b53e09ea6b99b1140df6bab9437))
+* fixed comment ([4dc09e2](https://github.com/gasser707/lernaTest/commit/4dc09e24c796f15840f72dbd15ef4295be983f97))
+* fixed version ([0985d8f](https://github.com/gasser707/lernaTest/commit/0985d8f78d9cd1f9d3193ef9d83617808606a75b))
+
+
+
+
+
 ## 1.0.1 (2021-03-21)
 
 
