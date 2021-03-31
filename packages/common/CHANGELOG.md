@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/gasser707/lernaTest/compare/@walnut/common@1.0.2...@walnut/common@1.0.3) (2021-03-31)
+
+
+### Bug Fixes
+
+* fixed comment ([63d66a2](https://github.com/gasser707/lernaTest/commit/63d66a29578f0b55a5f40003f7d08b95e57cfb97))
+
+
+
+
+
 ## 1.0.2 (2021-03-21)
 
 
